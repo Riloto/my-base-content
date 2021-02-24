@@ -2,7 +2,7 @@ name: 'My Base Content'
 type: module
 description: 'Default content for My Site'
 core_version_requirement: '^8.8 || ^9'
-package: 'My Site'
+package: 'my-base-content'
 dependencies:
   - default_content:default_content
   - better_normalizers:better_normalizers
