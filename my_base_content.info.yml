@@ -1,0 +1,25 @@
+name: 'My Base Content'
+type: module
+description: 'Default content for My Site'
+core_version_requirement: '^8.8 || ^9'
+package: 'My Site'
+dependencies:
+  - default_content:default_content
+  - better_normalizers:better_normalizers
+  - file_entity:file_entity
+  - metatag:metatag
+
+default_content:
+  node:
+    - c615a06b-0f27-43cb-8227-6b560c1c54df # Promo
+  paragraph:
+    # Promo
+    - 23b15bc1-8865-4b94-9199-9de1767ddb1c # Image
+    - b5b5f45c-df1f-48d3-a2a2-ed3f2664b74e # Spacer
+    - 959f34bd-36d6-4c4c-8010-209589f0038d # Text
+    - 8c90f71b-210b-424f-affa-4e324d4ed85a # Countdown
+    - 7f6be362-fe12-402a-b4bf-d400341e8bf9 # Form
+  media:
+    - 4b955f5c-9aa0-4c38-87f7-6bc9a0c52332	# Promo Header
+  file:
+    - 9241144d-571c-4f44-a06c-487caf4fc039 # Promo Header

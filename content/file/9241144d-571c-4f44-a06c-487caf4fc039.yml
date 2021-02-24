@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9241144d-571c-4f44-a06c-487caf4fc039
+  bundle: undefined
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: loren-cutler-hnWVENpjxuM-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-11/loren-cutler-hnWVENpjxuM-unsplash_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1970203
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1606749036
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

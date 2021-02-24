@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 23b15bc1-8865-4b94-9199-9de1767ddb1c
+  bundle: c_image
+  default_langcode: en
+  depends:
+    4b955f5c-9aa0-4c38-87f7-6bc9a0c52332: media
+default:
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1606748959
+  behavior_settings:
+    -
+      value: {  }
+  field_c_image:
+    -
+      entity: 4b955f5c-9aa0-4c38-87f7-6bc9a0c52332
+  field_c_image_summary_text:
+    -
+      value: "<p>This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.</p>\r\n"
+      format: rich_text
+  field_c_title:
+    -
+      value: 'Steamed bar Dripper'
+  field_text_horizontal_alignment:
+    -
+      value: position_center
+  field_text_vertical_alignment:
+    -
+      value: middle

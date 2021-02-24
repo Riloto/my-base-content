@@ -1,0 +1,19 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: b5b5f45c-df1f-48d3-a2a2-ed3f2664b74e
+  bundle: c_spacer
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1606749172
+  behavior_settings:
+    -
+      value: {  }
+  field_divider_height:
+    -
+      value: '5'

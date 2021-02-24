@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 959f34bd-36d6-4c4c-8010-209589f0038d
+  bundle: c_text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1606749184
+  behavior_settings:
+    -
+      value: {  }
+  field_c_title:
+    -
+      value: 'Enter now:'
+  field_classy_paragraph_style:
+    -
+      target_id: dsu_classy_text_dark_background
+  field_horizontal_aligment:
+    -
+      value: left
+  field_summary_text:
+    -
+      value: "<p>This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;</p>\r\n"
+      format: rich_text
+  field_text_horizontal_alignment:
+    -
+      value: position_left

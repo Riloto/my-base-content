@@ -1,0 +1,613 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c615a06b-0f27-43cb-8227-6b560c1c54df
+  bundle: dsu_component_page
+  default_langcode: en
+  depends:
+    4b955f5c-9aa0-4c38-87f7-6bc9a0c52332: media
+    94cdac73-f87f-427e-a95d-d9a1a1e066d7: taxonomy_term
+    da4ed81b-4811-4f54-ad7c-ecc2d7e0c42b: taxonomy_term
+    18ad1c5a-5b77-4265-a16f-43986cb9eef5: node
+    987a54a0-3dcd-4fb2-bb25-6b86469b2ab6: node
+    bbb8bbdf-4559-4b62-8491-39f0dad68523: node
+    abbb6f8f-77ca-4ada-855c-9b595dc31fda: media
+    84148c5b-75c6-4f8e-a292-e188ee0200e0: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Promo
+  created:
+    -
+      value: 1606748923
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_components:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 23b15bc1-8865-4b94-9199-9de1767ddb1c
+          bundle: c_image
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606748959
+          behavior_settings:
+            -
+              value: {  }
+          field_c_image:
+            -
+              entity: 4b955f5c-9aa0-4c38-87f7-6bc9a0c52332
+          field_c_image_summary_text:
+            -
+              value: "<p>This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.</p>\r\n"
+              format: rich_text
+          field_c_title:
+            -
+              value: 'Steamed bar Dripper'
+          field_text_horizontal_alignment:
+            -
+              value: position_center
+          field_text_vertical_alignment:
+            -
+              value: middle
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b5b5f45c-df1f-48d3-a2a2-ed3f2664b74e
+          bundle: c_spacer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606749172
+          behavior_settings:
+            -
+              value: {  }
+          field_divider_height:
+            -
+              value: '5'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8c90f71b-210b-424f-affa-4e324d4ed85a
+          bundle: c_countdown
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606749544
+          behavior_settings:
+            -
+              value: {  }
+          field_c_end_date:
+            -
+              value: '2021-01-01T05:00:00'
+          field_c_timezone:
+            -
+              value: Europe/Madrid
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: daa89af4-9177-48a3-be5c-0bae2d394d66
+          bundle: c_socialbuttons
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606750745
+          behavior_settings:
+            -
+              value: {  }
+          field_c_title:
+            -
+              value: 'Tell your friends!'
+          field_social_buttons_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1b8685fe-9d30-4c1b-a663-4f9897f609e7
+                  bundle: c_social_buttons_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606750745
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_social_buttons:
+                    -
+                      uri: 'http://www.twitter.com'
+                      title: twitter
+                      options:
+                        attributes:
+                          target: _blank
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 038034ba-a524-4477-bc71-a228d9cd1115
+                  bundle: c_social_buttons_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606750788
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_social_buttons:
+                    -
+                      uri: 'http://www.facebook.com'
+                      title: facebook
+                      options:
+                        attributes: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 959f34bd-36d6-4c4c-8010-209589f0038d
+          bundle: c_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606749184
+          behavior_settings:
+            -
+              value: {  }
+          field_c_title:
+            -
+              value: 'Enter now:'
+          field_classy_paragraph_style:
+            -
+              target_id: dsu_classy_text_dark_background
+          field_horizontal_aligment:
+            -
+              value: left
+          field_summary_text:
+            -
+              value: "<p>This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;This is the text description for tex + image.&nbsp;</p>\r\n"
+              format: rich_text
+          field_text_horizontal_alignment:
+            -
+              value: position_left
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0830c10a-1003-469b-98d9-2e330dc6b547
+          bundle: c_spacer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606751141
+          behavior_settings:
+            -
+              value: {  }
+          field_divider_height:
+            -
+              value: '5'
+          field_margin_bottom:
+            -
+              value: '3'
+          field_margin_top:
+            -
+              value: '3'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7f6be362-fe12-402a-b4bf-d400341e8bf9
+          bundle: forms
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606750608
+          behavior_settings:
+            -
+              value: {  }
+          field_webform:
+            -
+              target_id: promo
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 142488e2-64aa-400a-ae0b-7ed726fadcad
+          bundle: accordion
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606750930
+          behavior_settings:
+            -
+              value: {  }
+          field_accordion_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bcc6ede1-4708-42a0-ac12-f8b8b5951698
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606750930
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_c_title:
+                    -
+                      value: 'Contest Rules & Conditions'
+                  field_column_first:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 2da19398-86ca-4bab-9b34-6750097b88f1
+                          bundle: c_text
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1606750930
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_c_title:
+                            -
+                              value: 'Question 1'
+                          field_summary_text:
+                            -
+                              value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et gravida velit. Integer commodo, tellus ut consequat congue, lorem nulla bibendum velit, sit amet posuere mi urna et enim. Suspendisse neque augue, efficitur eget magna ac, rhoncus blandit nisl. Praesent vehicula hendrerit massa a rhoncus. Mauris tellus purus, vestibulum sit amet semper a, facilisis sed leo. Sed vel mollis erat. Nam eget eros nec dui tempor bibendum.</p>\r\n"
+                              format: rich_text
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 905a89de-be21-421f-8034-489e80adc237
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606751069
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_column_first:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 9fd3e3e8-f60e-4cd7-a302-04140e8ecb5c
+                          bundle: c_text
+                          default_langcode: en
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1606751069
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          field_c_title:
+                            -
+                              value: 'Question 2'
+                          field_summary_text:
+                            -
+                              value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et gravida velit. Integer commodo, tellus ut consequat congue, lorem nulla bibendum velit, sit amet posuere mi urna et enim. Suspendisse neque augue, efficitur eget magna ac, rhoncus blandit nisl. Praesent vehicula hendrerit massa a rhoncus. Mauris tellus purus, vestibulum sit amet semper a, facilisis sed leo. Sed vel mollis erat. Nam eget eros nec dui tempor bibendum.</p>\r\n"
+                              format: rich_text
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 40ba1cbe-3988-4e58-885b-69024ae44b79
+          bundle: c_spacer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606814161
+          behavior_settings:
+            -
+              value: {  }
+          field_divider_height:
+            -
+              value: '5'
+          field_margin_bottom:
+            -
+              value: '5'
+          field_margin_top:
+            -
+              value: '5'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: aee1cf78-d3bc-4ecd-b887-c39d71b9a274
+          bundle: ln_c_card
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606752419
+          behavior_settings:
+            -
+              value: {  }
+          field_button_color:
+            -
+              entity: 94cdac73-f87f-427e-a95d-d9a1a1e066d7
+          field_card_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c57e3da3-4187-4d62-893e-7469dc7808d7
+                  bundle: ln_c_card_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606752440
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_button_color:
+                    -
+                      entity: da4ed81b-4811-4f54-ad7c-ecc2d7e0c42b
+                  field_card_entity_selector:
+                    -
+                      entity: 18ad1c5a-5b77-4265-a16f-43986cb9eef5
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: cba1eedb-ea7f-4d80-a419-bfd779d0a459
+                  bundle: ln_c_card_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606752452
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_button_color:
+                    -
+                      entity: da4ed81b-4811-4f54-ad7c-ecc2d7e0c42b
+                  field_card_entity_selector:
+                    -
+                      entity: 987a54a0-3dcd-4fb2-bb25-6b86469b2ab6
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b67fab90-40cc-4521-ace5-12b0c38f7b92
+                  bundle: ln_c_card_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606752471
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_button_color:
+                    -
+                      entity: da4ed81b-4811-4f54-ad7c-ecc2d7e0c42b
+                  field_card_entity_selector:
+                    -
+                      entity: bbb8bbdf-4559-4b62-8491-39f0dad68523
+          field_classy_paragraph_style:
+            -
+              target_id: card_hover_card_profile
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a5c8bc90-6e09-4441-b9fc-547a3b38aad4
+          bundle: c_teasercycle
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1606816290
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_c_display_options:
+            -
+              value: field_c_image
+          field_c_teasercycle_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1b38358c-6530-4043-8e9a-00d19c76da64
+                  bundle: c_teasercycle_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606816290
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_c_image:
+                    -
+                      entity: abbb6f8f-77ca-4ada-855c-9b595dc31fda
+                  field_c_link:
+                    -
+                      uri: 'http://www.twitter.com'
+                      title: twitter
+                      options: {  }
+                  field_c_text:
+                    -
+                      value: "<p>asd</p>\r\n"
+                      format: rich_text
+                  field_c_title:
+                    -
+                      value: Twitter
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6b33cf78-129f-4f68-97c6-19df091817f5
+                  bundle: c_teasercycle_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1606816600
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_c_image:
+                    -
+                      entity: 84148c5b-75c6-4f8e-a292-e188ee0200e0
+                  field_c_link:
+                    -
+                      uri: 'http://www.facebook.com'
+                      title: facebook
+                      options: {  }
+                  field_c_text:
+                    -
+                      value: "<p>jklh</p>\r\n"
+                      format: rich_text
+                  field_c_title:
+                    -
+                      value: Facebook
