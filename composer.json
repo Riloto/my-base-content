@@ -1,0 +1,22 @@
+{
+    "name": "my-base-content/my-base-content",
+    "description": "Module to import/export content",
+    "type": "drupal-module",
+    "homepage": "https://github.com/Riloto/my-base-content",
+    "authors": [
+        {
+            "name": "Riloto",
+            "email": "ricardolopezt8@gmail.com"
+        }
+    ],
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    }
+}
